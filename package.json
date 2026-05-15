@@ -1,0 +1,27 @@
+{
+  "name": "@porotkin/lato2",
+  "version": "0.0.1",
+  "description": "Lato2 font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flystonet/lato2.git"
+  },
+  "keywords": [
+    "lato",
+    "lato2"
+  ],
+  "exports": {
+    "./*": {"sass": "./*.css", "default": "./*.css"},
+    "./LICENSE": "./LICENSE",
+    "./*.css": {"sass": "./*.css", "default": "./*.css"},
+    "./files/*": {"sass": "./files/*", "default": "./files/*"},
+    "./files/*.woff2": {
+      "sass": "./files/*.woff2",
+      "default": "./files/*.woff2"
+    },
+    "./package.json": "./package.json",
+    "./metadata.json": "./metadata.json",
+    "./unicode.json": "./unicode.json",
+    "./scss": {"sass": "./scss/metadata.scss"}
+  }
+}
