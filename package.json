@@ -23,5 +23,6 @@
     "./metadata.json": "./metadata.json",
     "./unicode.json": "./unicode.json",
     "./scss": {"sass": "./scss/metadata.scss"}
-  }
+  },
+  "license": "OFL-1.1"
 }
