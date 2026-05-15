@@ -11,10 +11,19 @@
     "lato2"
   ],
   "exports": {
-    "./*": {"sass": "./*.css", "default": "./*.css"},
+    "./*": {
+      "sass": "./*.css",
+      "default": "./*.css"
+    },
     "./LICENSE": "./LICENSE",
-    "./*.css": {"sass": "./*.css", "default": "./*.css"},
-    "./files/*": {"sass": "./files/*", "default": "./files/*"},
+    "./*.css": {
+      "sass": "./*.css",
+      "default": "./*.css"
+    },
+    "./files/*": {
+      "sass": "./files/*",
+      "default": "./files/*"
+    },
     "./files/*.woff2": {
       "sass": "./files/*.woff2",
       "default": "./files/*.woff2"
@@ -22,7 +31,14 @@
     "./package.json": "./package.json",
     "./metadata.json": "./metadata.json",
     "./unicode.json": "./unicode.json",
-    "./scss": {"sass": "./scss/metadata.scss"}
+    "./scss": {
+      "sass": "./scss/metadata.scss"
+    }
   },
-  "license": "OFL-1.1"
+  "license": "OFL-1.1",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/porotkin/lato2/issues"
+  },
+  "homepage": "https://github.com/porotkin/lato2#readme"
 }
